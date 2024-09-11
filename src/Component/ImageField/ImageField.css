@@ -1,0 +1,30 @@
+.Imagefield_cont {
+    background-color: grey;
+    color: white;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Imagefield_cont img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+@media only screen and (min-width: 977px) and (max-width: 1150px) {
+    .Imagefield_cont {
+        height: 450px;
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:977px) {
+    .Imagefield_cont {
+        width: 100%;
+        height: 50vh;
+    }
+}
