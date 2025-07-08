@@ -36,5 +36,5 @@ A sleek and easy-to-use web application that lets you upload images, apply Insta
 
 ```bash
 git clone https://github.com/karthick1005/InstagramFilters.git
-cd iInstagramFilters
+cd InstagramFilters
 npm install
